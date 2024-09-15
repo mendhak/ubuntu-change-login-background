@@ -5,6 +5,20 @@ Uses built in commands to change the GDM login screen wallpaper on Ubuntu 24.04,
 These are the sample files for my blog post on [Syncing the login wallpaper with the desktop wallpaper on Ubuntu](https://code.mendhak.com/synchronize-login-wallpaper-ubuntu/). 
 
 
+## Usage
+
+To set a wallpaper on the login screen, use
+
+```bash
+sudo ./change.sh ~/Pictures/testwallpaper.jpg
+```
+
+To set the current desktop wallpaper as the login screen wallpaper, use
+
+```bash
+sudo ./sync_desktop_wallpaper_to_login.sh 
+```
+
 
 ## References
 
