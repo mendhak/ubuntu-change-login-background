@@ -1,1 +1,1 @@
-mendhak ALL=(ALL:ALL) NOPASSWD:/home/mendhak/Projects/change-login-background/change.sh
+mendhak ALL=(ALL:ALL) NOPASSWD:/home/mendhak/Projects/ubuntu-change-login-background/change.sh
