@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Same as set_both_wallpapers, but creates a blurred image for login screen first 
+
 echo "Processing $1" | tee $(dirname $0)/run.log
 
 echo "Creating blurred version" | tee -a $(dirname $0)/run.log

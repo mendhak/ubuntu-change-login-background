@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# To be called from Variety config. First call the normal change.sh which sets the login wallpaper. 
+# Then call variety's normal set_wallpaper script. 
+
 echo "Processing $1" | tee $(dirname $0)/run.log
 
 # Set the lock screen wallpaper
